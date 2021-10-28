@@ -7,7 +7,6 @@ class Atendimento {
         
         atendimento = Object.values(atendimento)
         
-
         
         conexao.query(sql, atendimento, (erro, resultados) => {
             
